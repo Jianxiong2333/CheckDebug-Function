@@ -3,7 +3,7 @@
 #include <Winternl.h>//NtSetInformationThreadApproach，NtQueryInformationProcessApproach 需要此头
 /*********************************************************************************
 *Function:NtGlobalFlags                         //函数名称
-*Description:可检测出检测调试器                 //函数功能，性能等的描述
+*Description:查询进程环境块(PEB)                 //函数功能，性能等的描述
 *Calls:                                         //被本函数调用的函数清单
 *Called By:                                     //调用本函数的清单
 *Input:                                         //输入参数的说明，包括每个参数的作用、取值说明及参数间关系
